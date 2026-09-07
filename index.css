@@ -45,15 +45,15 @@
   );
 
   --w7-li-bd-hl: #aaddfa;
-  --w7-li-bg-hl: linear-gradient(#fff9, #e6ecf5cc 90%, #fffc);
+  --w7-li-bg-hl: linear-gradient(#e5bdf9, #e6ecf5cc 90%, #e5bdf9);
 
-  --w7-sb-grad-a-1: #c4e5f6;
-  --w7-sb-grad-a-2: #98d1ef;
-  --w7-sb-grad-h-1: #eaf6fd;
-  --w7-sb-grad-h-2: #bee6fd;
+  --w7-sb-grad-a-1: #e5bdf9;
+  --w7-sb-grad-a-2: #e5bdf9;
+  --w7-sb-grad-h-1: #e5bdf9;
+  --w7-sb-grad-h-2: #e5bdf9;
 
-  --w7-sb-y: linear-gradient(to right, #e5e5e5, var(--w7-surface) 20%);
-  --w7-sb-x: linear-gradient(to bottom, #e5e5e5, var(--w7-surface) 20%);
+  --w7-sb-y: linear-gradient(to right, #e5bdf9, var(--w7-surface) 20%);
+  --w7-sb-x: linear-gradient(to bottom, #e5bdf9, var(--w7-surface) 20%);
 
   font: var(--w7-font);
   width: 300px;
@@ -74,7 +74,7 @@
   border: 1px solid var(--w7-el-bd);
   border-radius: var(--w7-el-bdr);
   box-shadow: var(--w7-el-sd);
-  color: #222;
+  color: #e5bdf9;
   width: 100%;
   height: 25px;
   padding: 0 6px;
@@ -157,13 +157,13 @@
   }
 
   &:focus-visible {
-    box-shadow: inset 0 0 0 2px #98d1ef;
+    box-shadow: inset 0 0 0 2px #e5bdf9;
     outline: 1px dotted #000;
     outline-offset: -4px;
   }
 
   &:focus {
-    border-color: #5586a3;
+    border-color: #e5bdf9;
     background-image: var(--w7-el-grad-h);
     animation: 1s ease infinite alternate pulse-anim;
   }
